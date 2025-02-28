@@ -1,0 +1,288 @@
+
+
+.autor{
+    text-align: center;
+}
+
+
+
+img{
+
+display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+        height: 50%;
+}
+
+.aboutImg{
+    height: 20%;
+    width: 30%;
+}
+
+
+body{
+
+
+background: url("https://i.ibb.co/GT3Cxy8/267025858-279931084178277-224921923092105228-n.jpg");
+background-color: black;
+background-position:inherit;
+margin: 1.5cm;
+border: 5px;
+
+}
+
+.mydiv2{
+    background: url("https://i.ibb.co/JR3S7mJk/grunge-wall-texture-1194-8704.jpg");
+    border: 2px outset;
+    background-position: bottom;
+    background-color: rgb(0, 0, 0);
+    font-family:"Bebas Neue", serif;
+}
+
+.mydiv1{
+
+background: url("https://i.ibb.co/CP0GBpL/border-aged-texture-scratch-grunge.jpg");
+border: 2px outset;
+background-position: bottom;
+background-color: rgb(0, 0, 0);
+font-family:"Bebas Neue", serif;
+
+
+}
+
+.mydiv3{
+
+    background: url("https://i.ibb.co/WWB9ZWXQ/gritty-wall-texture-707519-22940.png");
+    
+   
+    background-position: bottom;
+    background-color: antiquewhite;
+    font-family:"Bebas Neue", serif;;
+    border: 2px outset;
+
+}
+
+
+.bebas-neue-regular {
+    font-family: "Bebas Neue", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+
+h1{
+
+color: aliceblue;
+text-align: center;
+font-size: 40px;
+
+font-family: "Bebas Neue", serif;
+
+}
+
+.SongsTitle{
+    font-size: 30px;
+    text-align: left;
+}
+
+.mytitle{
+    font-size: 70px;
+}
+
+
+.mytitle2{
+    font-size: 80px;
+    
+}
+
+.sptfLink{
+    font-size: 20px;
+    color: rgb(109, 129, 170);
+}
+
+p{
+
+color: white;
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+ color: rgb(221, 220, 220) ; font-size: 20px; ;
+}
+
+.parrafo{
+
+margin: 1cm;
+
+}
+
+  
+a{
+    text-align: center;
+    color: rgb(135, 160, 185);
+    font-size: 30px;
+}
+
+li{
+color: white;
+
+}
+
+ul{
+   
+    display: flex;
+   justify-content: center;
+   
+    gap: 20px;
+    list-style-type: none ;
+}
+
+
+
+mark{
+
+background-color: gray;
+color: #cbdff1;
+
+}
+
+.frase{
+    font-size: 30px ;
+    text-align: center;
+    }
+
+    .songsContainer {
+        display: flex;
+        align-items: center; 
+        gap: 10px;
+    }
+    
+    .songss {
+        text-align: left;
+        margin: 0;
+        padding: 0;
+    }
+    
+    .songImg {
+        border: solid white;
+        border-radius: 5px;
+        width: 150px; 
+        height: auto;
+        margin-right: 10px; 
+    }
+
+
+    button{
+        color: white;
+       font-family:  "Bebas Neue", serif;
+        background-color: grey;
+        font-size: 35px;
+        padding: 5px 100px;
+        border-radius: 10px;
+        border: solid rgb(110, 110, 110);
+        box-shadow: 0 0 10px 2px black;
+        cursor: pointer;
+    
+     }
+
+     button:hover{
+        border: solid rgb(52, 51, 51);
+     }
+
+     .boton-cont{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+     }
+
+     .btntext{
+        text-align: center;
+        font-size: 30px;
+     }
+     
+     .trivia{
+        text-decoration: none;
+        color: white;
+     }
+
+@media (max-width: 800px){
+
+  
+.frase{
+font-size: 20px ;
+}
+    .mydiv1{
+
+        background: url("https://i.ibb.co/CP0GBpL/border-aged-texture-scratch-grunge.jpg");
+        background-position: top;
+        background-color: antiquewhite;
+        font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        border: 2px outset;
+        
+        }
+      
+        img{
+
+            display: block;
+                    margin-left: auto;
+                    margin-right: auto;
+                    width: 80%;
+                    height: 50%;
+            }
+            
+            body{
+
+
+                background: url("https://i.ibb.co/GT3Cxy8/267025858-279931084178277-224921923092105228-n.jpg");
+                background-color: black;
+                background-position:inherit;
+                margin: 1cm;
+                border: none;
+                font-family: "Bebas Neue", serif;
+
+            }
+                
+                p{
+                   background: rgba(128, 128, 128, 0.334);
+                   padding: 10px;
+                   border-radius: 10px;
+                    font-size: 14px;
+                    text-align: left;
+                }
+
+                ul{
+                   margin-right: 12%;
+                   font-family: "Bebas Neue", serif;
+                }
+
+                
+                a{
+                    color: rgb(135, 160, 185);
+                    font-size: 25px;
+                }
+                
+
+                .title{
+                    font-size: 100px;
+                    }   
+
+
+                    .aboutImg{
+                        height: 50%;
+                        width: 60%;
+                    }
+
+                    .songsContainer{
+                        flex-direction: column-reverse;
+                    }
+                    
+                    .songImg{
+                        width: 0;
+                        height: 0;
+                        border: none;
+                    }
+
+                    .btntext{
+                        text-align: center;
+                        font-size: 20px;
+                     }
+
+                }
